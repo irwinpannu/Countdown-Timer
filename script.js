@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var countdownElement = document.getElementById("countdown");
   
     function updateCountdown() {
-      var targetDate = new Date("June 02, 2024 00:00:00").getTime();
+      var targetDate = new Date("September 10, 2024 00:00:00").getTime();
       var now = new Date().getTime();
       var remainingTime = targetDate - now;
   
